@@ -10,7 +10,7 @@ public class Main02 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите текст:");
+        System.out.println("Enter text :");
         String inputText = scanner.nextLine();
 
         String[] words = inputText.split(" ");
@@ -33,6 +33,6 @@ public class Main02 {
             }
         }
 
-        System.out.println("Наиболее часто встречающееся слово: " + mostFrequentWord);
+        System.out.println("Most frequently occurring word: " + mostFrequentWord);
     }
 }
